@@ -1,47 +1,50 @@
-# Kecebong-Hybrid
+# 📰 Kecebong-Hybrid — News App
 
 Kecebong-Hybrid adalah aplikasi full-stack berbasis arsitektur client-server untuk pengelolaan berita. Bagian frontend dibangun menggunakan Angular dan TypeScript, sedangkan backend menggunakan PHP native dengan database MySQL.
 
 Aplikasi ini menyediakan fitur autentikasi pengguna, manajemen berita, kategori, komentar, favorit, rating, dan profil user.
 
-## Fitur Utama
+---
 
-- Registrasi dan login pengguna
-- Menampilkan daftar berita
-- Menampilkan detail berita
-- Menambahkan berita
-- Menghapus berita
-- Mencari berita
-- Menambahkan dan menampilkan kategori
-- Menambahkan, menampilkan, dan menghapus komentar
-- Menambahkan dan menghapus berita favorit
-- Memberikan rating pada berita
-- Menampilkan profil pengguna
+## ✨ Fitur Utama
 
-## Teknologi yang Digunakan
+- 🔐 Registrasi dan login pengguna
+- 📋 Menampilkan daftar berita
+- 📄 Menampilkan detail berita
+- ➕ Menambahkan berita
+- 🗑️ Menghapus berita
+- 🔍 Mencari berita
+- 🏷️ Menambahkan dan menampilkan kategori
+- 💬 Menambahkan, menampilkan, dan menghapus komentar
+- ❤️ Menambahkan dan menghapus berita favorit
+- ⭐ Memberikan rating pada berita
+- 👤 Menampilkan profil pengguna
 
-### Frontend
+---
 
+## 🖥️ Teknologi yang Digunakan
+
+**Frontend**
 - Angular
 - TypeScript
 - HTML
 - SCSS
 - RxJS
 
-### Backend
-
+**Backend**
 - PHP Native
 - MySQL / MariaDB
 
-### Tools
-
+**Tools**
 - Node.js
 - npm
 - Angular CLI
 - XAMPP / Laragon
 - Git
 
-## Struktur Project
+---
+
+## 📁 Struktur Project
 
 ```text
 Kecebong-Hybrid/
@@ -102,7 +105,9 @@ Kecebong-Hybrid/
 └── README.md
 ```
 
-## Arsitektur Sistem
+---
+
+## 🏗️ Arsitektur Sistem
 
 Project ini menggunakan pola full-stack client-server:
 
@@ -134,7 +139,9 @@ JSON Response
 Angular UI Render
 ```
 
-## Penjelasan Client
+---
+
+## 📱 Penjelasan Client
 
 Folder `client/` adalah aplikasi frontend berbasis Angular yang berfungsi sebagai antarmuka pengguna untuk mengakses semua fitur backend.
 
@@ -174,7 +181,9 @@ Service ini bertugas untuk:
 - Menerima response JSON
 - Menghubungkan komponen frontend dengan API backend
 
-## Penjelasan Server
+---
+
+## ⚙️ Penjelasan Server
 
 Folder `server/` berisi backend berbasis PHP native yang menyediakan endpoint API untuk kebutuhan frontend.
 
@@ -217,7 +226,9 @@ Folder `server/` berisi backend berbasis PHP native yang menyediakan endpoint AP
 
 `conn.php` digunakan untuk menghubungkan backend dengan database MySQL.
 
-## Database
+---
+
+## 🗄️ Database
 
 Project ini menggunakan MySQL / MariaDB.
 
@@ -225,7 +236,9 @@ File database yang disediakan: `hmp_uas.sql`
 
 File tersebut digunakan untuk membuat struktur tabel dan data awal aplikasi.
 
-## Cara Menjalankan Project
+---
+
+## 🚀 Cara Menjalankan Project
 
 ### 1. Clone Repository
 
@@ -285,57 +298,8 @@ ng serve
 
 Lalu buka browser di: `http://localhost:4200`
 
-## Contoh Request API
+---
 
-Menampilkan daftar berita:
+## 👩‍💻 Author
 
-```bash
-curl "http://localhost/Kecebong-Hybrid/server/news_list.php"
-```
-
-Menampilkan detail berita:
-
-```bash
-curl "http://localhost/Kecebong-Hybrid/server/news_detail.php?id=1"
-```
-
-Menambahkan komentar:
-
-```bash
-curl -X POST "http://localhost/Kecebong-Hybrid/server/comment_create.php" \
-  -d "user_id=1&news_id=1&comment=Komentar saya"
-```
-
-Login user:
-
-```bash
-curl -X POST "http://localhost/Kecebong-Hybrid/server/login.php" \
-  -d "email=user@example.com&password=123456"
-```
-
-## Catatan Pengembangan
-
-Project ini sudah cocok untuk prototype atau tugas akademik. Untuk pengembangan lebih lanjut, beberapa peningkatan yang disarankan:
-
-- Menambahkan JWT Authentication
-- Menambahkan route guard pada frontend
-- Menggunakan HTTP interceptor
-- Menambahkan global error handling
-- Memisahkan environment development dan production
-- Menggunakan prepared statement pada query database
-- Menyimpan konfigurasi sensitif di file `.env`
-
-## Kontribusi
-
-Jika ingin berkontribusi:
-
-1. Fork repository ini
-2. Buat branch baru
-3. Lakukan perubahan
-4. Commit perubahan
-5. Push ke branch kamu
-6. Buat pull request
-
-## Author
-
-Dikembangkan oleh [imyourchel](https://github.com/imyourchel)
+**Rachel** — [@imyourchel](https://github.com/imyourchel)
