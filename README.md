@@ -1,6 +1,6 @@
-# 📰 Kecebong-Hybrid — News App
+# 📰 KeceNews — News App
 
-Kecebong-Hybrid adalah aplikasi full-stack berbasis arsitektur client-server untuk pengelolaan berita. Bagian frontend dibangun menggunakan Angular dan TypeScript, sedangkan backend menggunakan PHP native dengan database MySQL.
+KeceNews adalah aplikasi full-stack berbasis arsitektur client-server untuk pengelolaan berita. Bagian frontend dibangun menggunakan Angular dan TypeScript, sedangkan backend menggunakan PHP native dengan database MySQL.
 
 Aplikasi ini menyediakan fitur autentikasi pengguna, manajemen berita, kategori, komentar, favorit, rating, dan profil user.
 
